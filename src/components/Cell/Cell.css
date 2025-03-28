@@ -1,0 +1,10 @@
+.cell {
+    font-size: 32px;
+    user-select: none;
+}
+
+.clickable {
+    font-size: 32px;
+    user-select: none;
+    cursor: pointer;
+}
