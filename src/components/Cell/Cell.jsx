@@ -2,8 +2,8 @@ import './Cell.css';
 
 import { useState, useEffect } from 'react';
 
-function Cell() {
-    const [hasMine, setHasMine] = useState(false);
+function Cell(hasMine = false) {
+    // const hasMine = hasMine;
     const [revealed, setRevealed] = useState(false);
 
     const [adjacentMines, setAdjacentMines] = useState(0);

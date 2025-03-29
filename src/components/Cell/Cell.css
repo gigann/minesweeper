@@ -1,9 +1,11 @@
 .cell {
+    display: inline;
     font-size: 32px;
     user-select: none;
 }
 
 .clickable {
+    display: inline;
     font-size: 32px;
     user-select: none;
     cursor: pointer;
